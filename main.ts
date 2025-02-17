@@ -31,4 +31,5 @@ basic.forever(function () {
 basic.forever(function () {
     sec = sec + 1
     basic.pause(1000)
+    OLED.clear()
 })
